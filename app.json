@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "react-native-components",
+    "name": "Components",
     "slug": "react-native-components",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,7 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,10 +19,34 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tobiodu.reactnativecomponents"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/SourGummy-Thin.ttf",
+            "./assets/fonts/SourGummy-ExtraLight.ttf",
+            "./assets/fonts/SourGummy-Light.ttf",
+            "./assets/fonts/SourGummy-Regular.ttf",
+            "./assets/fonts/SourGummy-Medium.ttf",
+            "./assets/fonts/SourGummy-SemiBold.ttf",
+            "./assets/fonts/SourGummy-Bold.ttf",
+            "./assets/fonts/SourGummy-ExtraBold.ttf",
+            "./assets/fonts/SourGummy-Black.ttf"
+          ]
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e8d299dd-f062-4ba6-82ef-24301d61a493"
+      }
     }
   }
 }
